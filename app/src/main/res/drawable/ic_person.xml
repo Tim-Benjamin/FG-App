@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- FILE: app/src/main/res/drawable/ic_person.xml -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+
+    <!-- Head circle -->
+    <path
+        android:fillColor="@android:color/transparent"
+        android:strokeColor="#B0B0B0"
+        android:strokeWidth="2"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M12,4 C14.21,4 16,5.79 16,8 C16,10.21 14.21,12 12,12 C9.79,12 8,10.21 8,8 C8,5.79 9.79,4 12,4 Z"/>
+
+    <!-- Shoulders -->
+    <path
+        android:fillColor="@android:color/transparent"
+        android:strokeColor="#B0B0B0"
+        android:strokeWidth="2"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M4,20 C4,16.69 7.58,14 12,14 C16.42,14 20,16.69 20,20"/>
+
+</vector>

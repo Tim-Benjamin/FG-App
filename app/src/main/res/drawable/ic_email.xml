@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- FILE: app/src/main/res/drawable/ic_email.xml -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+
+    <!-- Envelope outline -->
+    <path
+        android:fillColor="@android:color/transparent"
+        android:strokeColor="#B0B0B0"
+        android:strokeWidth="2"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M3,6 L3,18 C3,18.55 3.45,19 4,19 L20,19 C20.55,19 21,18.55 21,18 L21,6 C21,5.45 20.55,5 20,5 L4,5 C3.45,5 3,5.45 3,6 Z"/>
+
+    <!-- Flap V shape -->
+    <path
+        android:fillColor="@android:color/transparent"
+        android:strokeColor="#B0B0B0"
+        android:strokeWidth="2"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M3,6 L12,13 L21,6"/>
+
+</vector>

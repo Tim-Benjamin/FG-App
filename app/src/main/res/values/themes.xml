@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- ============================================================
+     FILE: app/src/main/res/values/themes.xml
+     PURPOSE: Material3 dark theme wired to Obsidian & Gold palette.
+     ============================================================ -->
+<resources>
+
+    <!-- ── Base app theme ─────────────────────────────────────── -->
+    <style name="Theme.FareGo" parent="Theme.Material3.Dark.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorOnPrimary">@color/colorOnPrimary</item>
+        <item name="colorSurface">@color/colorSurface</item>
+        <item name="colorOnSurface">@color/colorOnSurface</item>
+        <item name="android:colorBackground">@color/colorBackground</item>
+        <item name="colorError">@color/colorError</item>
+        <item name="android:statusBarColor">@color/colorStatusBar</item>
+        <item name="android:navigationBarColor">@color/colorBackground</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+
+    <!-- ── Splash screen — no action bar, full dark ───────────── -->
+    <style name="Theme.FareGo.Splash" parent="Theme.FareGo">
+        <item name="android:windowBackground">@color/colorBackground</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+    <!-- ── Gold filled button ─────────────────────────────────── -->
+    <style name="Widget.FareGo.Button.Gold" parent="Widget.Material3.Button">
+        <item name="backgroundTint">@color/colorPrimary</item>
+        <item name="android:textColor">@color/colorOnPrimary</item>
+        <item name="android:textStyle">bold</item>
+        <item name="cornerRadius">28dp</item>
+        <item name="android:letterSpacing">0.04</item>
+    </style>
+
+    <!-- ── Outlined ghost button ──────────────────────────────── -->
+    <style name="Widget.FareGo.Button.Outline" parent="Widget.Material3.Button.OutlinedButton">
+        <item name="strokeColor">@color/colorPrimary</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="cornerRadius">28dp</item>
+    </style>
+
+    <!-- ── Dark input field ───────────────────────────────────── -->
+    <style name="Widget.FareGo.TextInputLayout" parent="Widget.Material3.TextInputLayout.OutlinedBox">
+        <item name="boxBackgroundColor">@color/colorSurfaceElevated</item>
+        <item name="boxStrokeColor">@color/colorDivider</item>
+        <item name="hintTextColor">@color/colorSecondaryText</item>
+        <item name="android:textColorHint">@color/colorHint</item>
+        <item name="boxCornerRadiusTopStart">12dp</item>
+        <item name="boxCornerRadiusTopEnd">12dp</item>
+        <item name="boxCornerRadiusBottomStart">12dp</item>
+        <item name="boxCornerRadiusBottomEnd">12dp</item>
+    </style>
+
+    <!-- ── Dark surface card ──────────────────────────────────── -->
+    <style name="Widget.FareGo.Card" parent="Widget.Material3.CardView.Elevated">
+        <item name="cardBackgroundColor">@color/colorSurface</item>
+        <item name="cardElevation">0dp</item>
+        <item name="cardCornerRadius">16dp</item>
+        <item name="strokeColor">@color/colorDivider</item>
+        <item name="strokeWidth">1dp</item>
+    </style>
+
+    <!-- ── Transport type card (selectable) ───────────────────── -->
+    <style name="Widget.FareGo.Card.Transport" parent="Widget.FareGo.Card">
+        <item name="cardCornerRadius">12dp</item>
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+    </style>
+
+</resources>

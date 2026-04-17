@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- FILE: app/src/main/res/drawable/bg_topbar_gradient.xml
+     Fades from solid dark at top to transparent — lets map show through -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <gradient
+        android:type="linear"
+        android:angle="270"
+        android:startColor="#E6121212"
+        android:endColor="#00121212"/>
+</shape>

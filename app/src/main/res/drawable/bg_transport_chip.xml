@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- FILE: app/src/main/res/drawable/bg_transport_chip.xml -->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Pressed state -->
+    <item android:state_pressed="true">
+        <shape android:shape="rectangle">
+            <solid android:color="#2A2A2A"/>
+            <stroke android:width="1.5dp" android:color="#FFD700"/>
+            <corners android:radius="12dp"/>
+        </shape>
+    </item>
+
+    <!-- Default state -->
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="#252525"/>
+            <stroke android:width="1dp" android:color="#2C2C2C"/>
+            <corners android:radius="12dp"/>
+        </shape>
+    </item>
+
+</selector>

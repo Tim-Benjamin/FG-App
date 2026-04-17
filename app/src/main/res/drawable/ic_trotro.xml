@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- FILE: app/src/main/res/drawable/ic_trotro.xml
+     Simplified minibus / trotro side-view vector -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="32dp"
+    android:height="32dp"
+    android:viewportWidth="32"
+    android:viewportHeight="32">
+
+    <!-- Bus body -->
+    <path
+        android:fillColor="@android:color/transparent"
+        android:strokeColor="#FFD700"
+        android:strokeWidth="1.8"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M3,10 L3,22 L29,22 L29,10 C29,8.9 28.1,8 27,8 L5,8 C3.9,8 3,8.9 3,10 Z"/>
+
+    <!-- Windshield -->
+    <path
+        android:fillColor="@android:color/transparent"
+        android:strokeColor="#FFD700"
+        android:strokeWidth="1.5"
+        android:strokeLineCap="round"
+        android:pathData="M22,8 L22,14 L29,14"/>
+
+    <!-- Window row -->
+    <path
+        android:fillColor="@android:color/transparent"
+        android:strokeColor="#FFD700"
+        android:strokeWidth="1.4"
+        android:strokeLineCap="round"
+        android:pathData="M5,10 L5,14 L10,14 L10,10 M12,10 L12,14 L17,14 L17,10"/>
+
+    <!-- Undercarriage / chassis line -->
+    <path
+        android:fillColor="@android:color/transparent"
+        android:strokeColor="#FFD700"
+        android:strokeWidth="1.5"
+        android:pathData="M3,22 L29,22"/>
+
+    <!-- Front wheel -->
+    <path
+        android:fillColor="@android:color/transparent"
+        android:strokeColor="#FFD700"
+        android:strokeWidth="1.8"
+        android:pathData="M23,22 C23,20.34 24.34,19 26,19 C27.66,19 29,20.34 29,22"/>
+    <path
+        android:fillColor="#FFD700"
+        android:pathData="M24.5,22 C24.5,21.17 25.17,20.5 26,20.5 C26.83,20.5 27.5,21.17 27.5,22 Z"/>
+
+    <!-- Rear wheel -->
+    <path
+        android:fillColor="@android:color/transparent"
+        android:strokeColor="#FFD700"
+        android:strokeWidth="1.8"
+        android:pathData="M6,22 C6,20.34 7.34,19 9,19 C10.66,19 12,20.34 12,22"/>
+    <path
+        android:fillColor="#FFD700"
+        android:pathData="M7.5,22 C7.5,21.17 8.17,20.5 9,20.5 C9.83,20.5 10.5,21.17 10.5,22 Z"/>
+
+</vector>

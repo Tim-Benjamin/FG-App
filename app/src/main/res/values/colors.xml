@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- ============================================================
+     FILE: app/src/main/res/values/colors.xml
+     PURPOSE: Obsidian & Gold theme — matches the app mockup exactly
+     ============================================================ -->
+<resources>
+    <!-- ── Core palette ──────────────────────────────────────── -->
+    <color name="colorBackground">#121212</color>       <!-- deepest background -->
+    <color name="colorSurface">#1E1E1E</color>          <!-- card surfaces -->
+    <color name="colorSurfaceElevated">#252525</color>  <!-- input fields, elevated cards -->
+    <color name="colorOverlay">#2A2A2A</color>          <!-- suggestion list, dialogs -->
+
+    <!-- ── Gold accent (primary) ─────────────────────────────── -->
+    <color name="colorPrimary">#FFD700</color>
+    <color name="colorPrimaryDark">#C9A800</color>
+    <color name="colorPrimaryLight">#FFE55C</color>
+    <color name="colorOnPrimary">#121212</color>        <!-- text ON gold buttons -->
+
+    <!-- ── Text ──────────────────────────────────────────────── -->
+    <color name="colorOnBackground">#FAFAFA</color>     <!-- primary text -->
+    <color name="colorOnSurface">#FAFAFA</color>
+    <color name="colorSecondaryText">#B0B0B0</color>    <!-- muted labels -->
+    <color name="colorHint">#6B6B6B</color>             <!-- placeholder text -->
+
+    <!-- ── Semantic ───────────────────────────────────────────── -->
+    <color name="colorError">#CF6679</color>
+    <color name="colorSuccess">#4CAF50</color>
+    <color name="colorDivider">#2C2C2C</color>
+
+    <!-- ── Transport type badges ─────────────────────────────── -->
+    <color name="colorTrotro">#FFD700</color>
+    <color name="colorTaxi">#B0B0B0</color>
+    <color name="colorUber">#FAFAFA</color>
+
+    <!-- ── Status bar ────────────────────────────────────────── -->
+    <color name="colorStatusBar">#121212</color>
+</resources>
