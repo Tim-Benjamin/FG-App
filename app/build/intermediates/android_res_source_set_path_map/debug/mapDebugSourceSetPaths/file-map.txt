@@ -1,0 +1,7 @@
+com.farego.app-pngs-0 D:\AndroidProjects\FareGo\app\build\generated\res\pngs\debug
+com.farego.app-updated_navigation_xml-1 D:\AndroidProjects\FareGo\app\build\generated\updated_navigation_xml\debug
+com.farego.app-packageDebugResources-2 D:\AndroidProjects\FareGo\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
+com.farego.app-packageDebugResources-3 D:\AndroidProjects\FareGo\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
+com.farego.app-debug-4 D:\AndroidProjects\FareGo\app\build\intermediates\merged_res\debug\mergeDebugResources
+com.farego.app-debug-5 D:\AndroidProjects\FareGo\app\src\debug\res
+com.farego.app-main-6 D:\AndroidProjects\FareGo\app\src\main\res
