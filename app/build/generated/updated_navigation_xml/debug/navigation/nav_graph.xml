@@ -1,0 +1,31 @@
+<navigation
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:id="@+id/nav_graph"
+app:startDestination="@id/homeFragment" >
+
+<!-- ── Home (map + search + fare result) ──────────────────── -->
+<fragment
+    android:id="@+id/homeFragment"
+    android:name="com.farego.app.ui.HomeFragment"
+    android:label="FareGo"
+    tools:layout="@layout/fragment_home" >
+
+    <action
+        android:id="@+id/action_home_to_dashboard"
+        app:destination="@id/userDashboardFragment"
+        app:enterAnim="@anim/slide_in_right"
+        app:exitAnim="@anim/slide_out_left"
+        app:popEnterAnim="@anim/slide_in_left"
+        app:popExitAnim="@anim/slide_out_right" />
+
+</fragment>
+
+<!-- ── User dashboard (search history) ────────────────────── -->
+<fragment
+    android:id="@+id/userDashboardFragment"
+    android:name="com.farego.app.ui.UserDashboardFragment"
+    android:label="My Trips"
+    tools:layout="@layout/fragment_user_dashboard" />
+</navigation>
